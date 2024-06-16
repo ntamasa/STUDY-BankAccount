@@ -1,6 +1,6 @@
 # Imaginary Bank Account
 
-This project is a React application created **for studying purposes**, based on Jonas Schmedtmann's React course (Section 20). The main goal is to learn and practice React and the Redux library by implementing an imaginary bank account system.
+This project is a React application created **for studying purposes**, based on Jonas Schmedtmann's React course (Section 20). The main goal is to learn and practice React and the Redux library by implementing an imaginary bank account system. The project is built using Vite for a faster and leaner development experience.
 
 ## Table of Contents
 
@@ -34,6 +34,7 @@ This project allows users to create an account, manage their imaginary bank acco
 - **JavaScript**: The programming language used for the project.
 - **HTML**: For structuring the web pages.
 - **CSS**: For styling the web pages.
+- **Vite**: For fast and optimized development and build process.
 
 ## Getting Started
 
@@ -41,7 +42,7 @@ To get a local copy up and running, follow these simple steps:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/ntamasa//STUDY-BankAccount.git
+   git clone https://github.com/ntamasa/STUDY-BankAccount.git
    ```
 2. **Navigate to the project directory**:
    ```bash
