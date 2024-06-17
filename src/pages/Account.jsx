@@ -7,7 +7,7 @@ function Account() {
     <div>
       <Balance />
 
-      <Customer name="Tamás" />
+      <Customer />
       <div className="inputs">
         <div>
           <label>Deposit</label>
