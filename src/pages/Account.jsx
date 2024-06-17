@@ -1,12 +1,13 @@
-import Balance from "../components/Balance";
+import Balance from "../features/account/Balance";
 import Button from "../components/Button";
+import Customer from "../features/customer/Customer";
 
 function Account() {
   return (
     <div>
       <Balance />
 
-      <h2>👋 Welcome, NAME</h2>
+      <Customer name="Tamás" />
       <div className="inputs">
         <div>
           <label>Deposit</label>
