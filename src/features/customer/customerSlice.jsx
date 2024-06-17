@@ -4,6 +4,7 @@ const initialState = {
   name: "",
   nationalID: "",
   createdAt: "",
+  isLoggedIn: false,
 };
 
 const customerSlice = createSlice({
@@ -17,6 +18,7 @@ const customerSlice = createSlice({
             name,
             nationalID,
             createdAt: new Date().toISOString(),
+            isLoggedIn: true,
           },
         };
       },
@@ -24,6 +26,7 @@ const customerSlice = createSlice({
         state.name = action.payload.name;
         state.nationalID = action.payload.nationalID;
         state.createdAt = action.payload.createdAt;
+        state.isLoggedIn = action.payload.isLoggedIn;
       },
     },
   },
